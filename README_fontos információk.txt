@@ -1,6 +1,6 @@
-Ezeket a Notebookokat a Németországban tanult Machine Learning tantárgy által dolgoztam fel.
+A teljes projekt mappát (képi adatok, stb) zip-ként töltöm fel.
 
-A Python megvalósítás előtt-közben a tárgy mélyebb matematikai háttér átadására fókuszált, mely elméleti anyagokat (előadásvideók, slideok)
+A Python megvalósítás előtt-közben a mélyebb matematikai háttére is fókuszáltunk, ezeket az elméleti anyagokat (előadásvideók, slideok)
 folyamatosan a kódokhoz igazítottam (kommentekben, saját megfogalmazással) azok értelmezése közben, annak érdekében,
 hogy például a hiperparamétereket megfelelően tudjam változtatnii, illetve hogy jobban belelássak a kódok mögötti matematikai háttérfolyamatokba.
 Emellett gyakran néztem utána dokumentációkban például beépített függvények paramétereinek, működéseinek, 
