@@ -1,4 +1,4 @@
-Ez a Notebook a Németországban tanult Machine Learning tantárgy keretein belül állt rendelkezésemre.
+Ezeket a Notebookokat a Németországban tanult Machine Learning tantárgy által dolgoztam fel.
 
 A Python megvalósítás előtt-közben a tárgy mélyebb matematikai háttér átadására fókuszált, mely elméleti anyagokat (előadásvideók, slideok)
 folyamatosan a kódokhoz igazítottam (kommentekben, saját megfogalmazással) azok értelmezése közben, annak érdekében,
