@@ -1,4 +1,4 @@
-A Notebook-ok nagy mérete miatt például a "DL Workspace_saját" notebook nem tölt itt be, ezért,
+A Notebook-ok nagy mérete miatt például a "DL Workspace_saját" nehezen tölt itt be, ezért,
 illetve a képi adatok (DL), egyéb fileok, saját kiegészítések (képek, excelek) miatt a teljes "projekt" mappát feltölöttem ide:
 https://drive.google.com/drive/folders/11qtNoWj1Z9aUZ6ImwchnyAyrsl4fnAXs?usp=sharing
 
