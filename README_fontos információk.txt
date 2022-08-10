@@ -1,4 +1,7 @@
-A teljes projekt mappát (képi adatok, stb) zip-ként töltöm fel.
+A Notebook-ok nagy mérete miatt például a "DL Workspace_saját" notebook nem tölt itt be, ezért,
+illetve a képi adatok (DL), egyéb fileok, saját kiegészítések (képek, excelek) miatt a teljes "projekt" mappát feltölöttem ide:
+https://drive.google.com/drive/folders/11qtNoWj1Z9aUZ6ImwchnyAyrsl4fnAXs?usp=sharing
+
 
 A Python megvalósítás előtt-közben a mélyebb matematikai háttére is fókuszáltunk, ezeket az elméleti anyagokat (előadásvideók, slideok)
 folyamatosan a kódokhoz igazítottam (kommentekben, saját megfogalmazással) azok értelmezése közben, annak érdekében,
