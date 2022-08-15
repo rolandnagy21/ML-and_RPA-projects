@@ -17,5 +17,5 @@ melyekben a hosszabb kódsorokat részletekre szedve értelmeztem, próbálgatta
 kódok értő tanulását.
 Ezeket a hozzáadott kiegészítő cellákat a transzparencia, olvashatóság érdekében mindig a "saját, értelmezéshez" kommenttel kezdtem.
 
-(A Deep Learning képi adatoknál (GDrive\Python ML projekt\DL for Image Classification\data) a Missing Cover ("_MC_") kategóriájú képek felülnézetben 
+(A Deep Learning képi adatoknál (Google Drive\Python ML projekt\DL for Image Classification\data) a Missing Cover ("_MC_") kategóriájú képek felülnézetben 
 félrevezetőek lehetnek, mert bár ebből a nézetből rajtuk van a fekete gumi "takaró", oldalsó nézetből viszont már látszik, hogy nem mindegyik részükön van "takaró".)
