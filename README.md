@@ -13,9 +13,9 @@ mellyel az volt a cél, hogy ne csak megértsem a hosszabb kódrészleteket, han
 és hogy a kommentek ne csak számomra, hanem a külső olvasó számára is minél érthetőbbek legyenek.
 
 A tanulási folyamat közben, mikor egy-egy (számomra) összetettebb Code cellához értem, felette hozzáadtam kiegészítő Code cellákat,  
-melyekben a hosszabb kódsorokat részletekre szedve értelmeztem, próbálgattam ki (printelések, stb), így elősegítse a részletek átlátását, 
+melyekben a hosszabb kódsorokat részletekre szedve értelmeztem, próbálgattam ki (printelések, stb), így elősegítve a részletek átlátását, 
 kódok értő tanulását.
-Ezeket a hozzáadott kiegészítő cellákat a transzparencia érdekében mindig a "saját, értelmezéshez" kommenttel kezdtem.
+Ezeket a hozzáadott kiegészítő cellákat a transzparencia, olvashatóság érdekében mindig a "saját, értelmezéshez" kommenttel kezdtem.
 
 (A Deep Learning képi adatoknál (GDrive\Python ML projekt\DL for Image Classification\data) a Missing Cover ("_MC_") kategóriájú képek felülnézetben 
 félrevezetőek lehetnek, mert bár ebből a nézetből rajtuk van a fekete gumi "takaró", oldalsó nézetből viszont már látszik, hogy nem mindegyik részükön van "takaró".)
