@@ -9,7 +9,7 @@ Kiegészítésképp gyakran utánanéztem a használt library-k dokumentációj�
 ezeket is kommentben fűztem hozzá a kódhoz.
 
 Időnként kódértelmező kommentjeiben szándékosan túl részletesek, vagy nagyon alapvető Python ismeretekhez utalnak vissza,
-amivel az volt a cél, hogy ne csak megértsem a hosszabb kódrészleteket, hanem hogy közben tanuljam magamtól történő megírásukat is,
+mellyel az volt a cél, hogy ne csak megértsem a hosszabb kódrészleteket, hanem hogy közben tanuljam magamtól történő megírásukat is,
 és hogy a kommentek ne csak számomra, hanem a külső olvasó számára is minél érthetőbbek legyenek.
 
 A tanulási folyamat közben, mikor egy-egy (számomra) összetettebb Code cellához értem, felette hozzáadtam kiegészítő Code cellákat,  
