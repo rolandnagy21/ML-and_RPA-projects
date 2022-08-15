@@ -6,7 +6,7 @@ A Python megvalósítás közben a mélyebb matematikai háttére is fókuszált
 a kódokhoz igazítottam értelmezésük közben (kommentekben, saját megfogalmazással), annak érdekében,
 hogy például a hiperparamétereket értően tudjam változtatni, illetve hogy jobban belelássak a kódok mögötti háttérszámításokba.
 Kiegészítésképp gyakran utánanéztem a használt library-k dokumentációjában az alkalmazott függvények paramétereinek, működésének, 
-ezeket is kommentben fűztem hozzá a kódhoz.
+ezeket is kommentben fűztem hozzá.
 
 Időnként kódértelmező kommentjeiben szándékosan túl részletesek, vagy nagyon alapvető Python ismeretekhez utalnak vissza,
 mellyel az volt a cél, hogy ne csak megértsem a hosszabb kódrészleteket, hanem hogy közben tanuljam magamtól történő megírásukat is,
