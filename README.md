@@ -2,7 +2,7 @@ A Notebook-ok nagy méretük miatt lassan töltenek be (pull nélkül), és nehe
 így a DL dataset-t, egyéb fileokat, saját kiegészítéseket (képek, excelek) tartalmazó teljes projekt mappát feltölöttem ide:
 https://drive.google.com/drive/folders/11qtNoWj1Z9aUZ6ImwchnyAyrsl4fnAXs?usp=sharing
 
-A Python megvalósítás előtt-közben a mélyebb matematikai háttére is fókuszált a tanult tárgy, ezeket az elméleti anyagokat (előadásvideók, slideok)
+A Python megvalósítás közben a mélyebb matematikai háttére is fókuszált a tanult tárgy, ezeket az elméleti anyagokat (előadásvideók, slideok)
 a kódokhoz igazítottam értelmezésük közben (kommentekben, saját megfogalmazással), annak érdekében,
 hogy például a hiperparamétereket értően tudjam változtatni, illetve hogy jobban belelássak a kódok mögötti matematikai háttérfolyamatokba.
 Kiegészítésképp gyakran utánanéztem a használt library-k dokumentációjában az alkalmazott függvények paramétereinek, működésének, 
