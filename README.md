@@ -1,7 +1,6 @@
-A Notebook-ok nagy méretük miatt lassan töltenek itt be, és nehezen olvashatóak (Code cellák outputjai GitHubon végig ki vannak írva)
+A Notebook-ok nagy méretük miatt lassan töltenek be (pull nélkül), és nehezen olvashatóak (Code cellák outputjai GitHubon végig ki vannak írva)
 így a DL dataset-t, egyéb fileokat, saját kiegészítéseket (képek, excelek) tartalmazó teljes projekt mappát feltölöttem ide:
 https://drive.google.com/drive/folders/11qtNoWj1Z9aUZ6ImwchnyAyrsl4fnAXs?usp=sharing
-(vagy a csak itteni fileokon pull zip-ként)
 
 A Python megvalósítás előtt-közben a mélyebb matematikai háttére is fókuszált a tanult tárgy, ezeket az elméleti anyagokat (előadásvideók, slideok)
 a kódokhoz igazítottam értelmezésük közben (kommentekben, saját megfogalmazással), annak érdekében,
