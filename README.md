@@ -14,7 +14,7 @@ mellyel az volt a cél, hogy ne csak megértsem a hosszabb kódrészleteket, han
 
 A tanulási folyamat közben, mikor egy-egy (számomra) összetettebb Code cellához értem, felette hozzáadtam kiegészítő Code cellákat,  
 melyekben a hosszabb kódsorokat részletekre szedve értelmeztem, próbálgattam ki (printelések, stb), így elősegítve a részletek átlátását, 
-kódok értő tanulását.
+hosszabb kódok értő tanulását.
 Ezeket a hozzáadott kiegészítő cellákat a transzparencia, olvashatóság érdekében mindig a "saját, értelmezéshez" kommenttel kezdtem.
 
 (A Deep Learning képi adatoknál (Google Drive\Python ML projekt\DL for Image Classification\data\top) a Missing Cover ("_MC_") kategóriájú képek felülnézetben 
