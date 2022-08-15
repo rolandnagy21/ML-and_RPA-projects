@@ -1,4 +1,4 @@
-A Notebook-ok nagy méretük miatt lassan töltenek be (pull nélkül), és nehezen olvashatóak (Code cellák outputjai GitHubon végig ki vannak írva)
+A Notebook-ok nagy méretük miatt lassan töltenek be (pull nélkül), és nehezen olvashatóak (Code cellák outputjai végig ki vannak írva)
 így a DL dataset-t, egyéb fileokat, saját kiegészítéseket (képek, excelek) tartalmazó teljes projekt mappát feltölöttem ide:
 https://drive.google.com/drive/folders/11qtNoWj1Z9aUZ6ImwchnyAyrsl4fnAXs?usp=sharing
 
