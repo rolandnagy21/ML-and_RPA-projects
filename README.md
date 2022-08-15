@@ -18,4 +18,4 @@ kódok értő tanulását.
 Ezeket a hozzáadott kiegészítő cellákat a transzparencia, olvashatóság érdekében mindig a "saját, értelmezéshez" kommenttel kezdtem.
 
 (A Deep Learning képi adatoknál (Google Drive\Python ML projekt\DL for Image Classification\data\top) a Missing Cover ("_MC_") kategóriájú képek felülnézetben 
-félrevezetőek lehetnek, mert bár ebből a nézetből úgy látszik, hogy rajtuk van a fekete gumi "takaró", oldalsó nézetből már látszik, hogy a takaró nem mindegyik részükön van rajta.)
+félrevezetőek lehetnek, mert bár innen nézve úgy tűnik, hogy rajtuk van a fekete gumi "takaró", oldalsó nézetből már látszik, hogy a takaró nem mindegyik részükön van rajta.)
