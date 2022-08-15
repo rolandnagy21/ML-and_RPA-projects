@@ -4,7 +4,7 @@ https://drive.google.com/drive/folders/11qtNoWj1Z9aUZ6ImwchnyAyrsl4fnAXs?usp=sha
 
 A Python megvalósítás közben a mélyebb matematikai háttére is fókuszált a tanult tárgy, ezeket az elméleti anyagokat (előadásvideók, slideok)
 a kódokhoz igazítottam értelmezésük közben (kommentekben, saját megfogalmazással), annak érdekében,
-hogy például a hiperparamétereket értően tudjam változtatni, illetve hogy jobban belelássak a kódok mögötti matematikai háttérfolyamatokba.
+hogy például a hiperparamétereket értően tudjam változtatni, illetve hogy jobban belelássak a kódok mögötti háttérszámításokba.
 Kiegészítésképp gyakran utánanéztem a használt library-k dokumentációjában az alkalmazott függvények paramétereinek, működésének, 
 ezeket is kommentben fűztem hozzá a kódhoz.
 
