@@ -28,7 +28,7 @@ A tanulási folyamat közben, mikor egy-egy (számomra) összetettebb Code cell�
 
 (A Deep Learning képi adatoknál (Google Drive\Python ML projekt\DL for Image Classification\data\top) a Missing Cover ("_MC_") kategóriájú képek felülnézetben félrevezetőek lehetnek, mert bár innen nézve úgy tűnik, hogy rajtuk van a fekete gumi "takaró", oldalsó nézetből már látszik, hogy nem mindegyik részükön van rajta.)
 
-Deep Learning projekt hosszabb leírás
+Deep Learning projekt hosszabb leírása
 -----------------------------------
 Használt library-k: keras, tensorflow, seaborn, sklearn, matplotlib, cv2, pandas, numpy, glob, random. <br> <br>
 Elektromos motorokat (autókhoz) gyártását szimuláló környezetben vagyunk, ahol a gyártósor végén kapott motorokról egy szenzor képet készít. Az automatizált gyártás miatt típushibák keletkeznek: missing cover, missing screw, vagy hibamentes, azaz complete - ezek a dataset label-jei, melyek a class-okat is jelentik, hiszen a motorok hibáinak algoritmizált felismerése klasszifikációs problémát jelent.<br><br>
