@@ -1,4 +1,4 @@
-Deep Learning projekt összefoglaló (az utolsó pontban hosszabban is kifejtettem)
+Deep Learning projekt összefoglaló (utolsó pontban hosszabban kifejtve)
 -----------------------------------
 
 
