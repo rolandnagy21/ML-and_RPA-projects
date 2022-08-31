@@ -1,6 +1,13 @@
-A Notebook-ok nagy méretük miatt lassan töltenek be (pull nélkül), és nehezen olvashatóak (Code cellák outputjai végig ki vannak írva)
-így a DL dataset-t, egyéb fileokat, saját kiegészítéseket (képek, excelek) tartalmazó teljes projekt mappát feltölöttem ide:
+ML és RPA projektek teljes mappájának elérése
+-----------------------------------
+A Notebook-ok nagy méretük miatt lassan töltenek be (pull nélkül) és nehezen olvashatóak (cellák outputjai végig ki vannak írva),
+az RPA projekt esetében pedig csak a legrelenvásabb kód fileok találhatóak meg itt, ezért    
+a 2 projekt teljes mappáját feltölöttem ide:
 https://drive.google.com/drive/folders/11qtNoWj1Z9aUZ6ImwchnyAyrsl4fnAXs?usp=sharing
+(a ML projekt esetén tartalmazza a DL dataset-t, egyéb fileokat, saját kiegészítéseket (képek, excelek), 
+az RPA projekt esetén pedig az VS Solution minden fileját, mint pl. config fileok)
+
+
 
 A Python megvalósítás közben a mélyebb matematikai háttére is fókuszált a tanult tárgy, ezeket az elméleti anyagokat (előadásvideók, slideok)
 kommentben a kódokhoz igazítottam értelmezésük közben (kommentekben, saját megfogalmazással), annak érdekében,
