@@ -5,7 +5,7 @@ Deep Learning projekt összefoglaló (utolsó pontban hosszabban kifejtve)
 Pipeline and Regressions projekt összefoglaló 
 -----------------------------------
 
-Robotic Process Automation rövid projekt összefoglaló
+Robotic Process Automation projekt összefoglaló
 -----------------------------------
 
 ML és RPA projektek teljes mappájának elérése
