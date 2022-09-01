@@ -18,7 +18,7 @@ Pipeline and Regressions projekt összefoglaló
 
 A use case egy gyártási környezetben használt gép energiafelhasználásnak (kJ) becslése a gép beállított paraméterei alapján, különböző regressziós modellekkel. <br>
 
-Ezt a projektet is üres kóddal kezdjük, így minden függvényt, algoritmust lépésenként haladva, a nulláról építünk fel. Először DataFrame-be betöltjük, és áttekintjük az adatokat, majd az attribútumok szerinti bontásban vizualizáljuk (hisztogram plot) őket. Ezután kezeljük a hiányzó és outlier értékeket, valamint train és test set-re bontjuk a dataset-t.
+Ezt a projektet is üres kóddal kezdjük, így minden függvényt, algoritmust lépésenként haladva, nulláról építünk fel. Először DataFrame-be betöltjük, és áttekintjük az adatokat, majd az attribútumok szerinti bontásban vizualizáljuk (hisztogram plot) őket. Ezután kezeljük a hiányzó és outlier értékeket, valamint train és test set-re bontjuk a dataset-t.
 
 <b>A következő modellekkel dolgozunk: Linear Regression, Random Forest Regressor, Support Vector Regresssion. </b> Mindegyik esetében a következő lépéseken megyünk végig: 
 - importáljuk az adott modellt (sklearn library), és beállítjuk a hyperparamétereit (pl. RF-nél fák száma, SVR-nél kernel típusa)
@@ -45,7 +45,7 @@ https://drive.google.com/drive/folders/11qtNoWj1Z9aUZ6ImwchnyAyrsl4fnAXs?usp=sha
 az RPA projekt esetén pedig az VS Solution minden fileját, mint pl. config fileok)
 
 
-Saját kiegészítések, részek a projektekben
+Saját részek, kiegészítések a projektekben
 -----------------------------------
 A Python megvalósítás közben a mélyebb matematikai háttérre is fókuszáltak a tanult anyagok, ezeket az elméleti anyagokat (előadásvideók, slideok) kommentbe (saját megfogalmazással) a kódokhoz igazítottam a kódértelmezés közben, annak érdekében, hogy például a hyperparamétereket értően tudjam változtatni, illetve hogy jobban belelássak a kódok mögötti háttérszámításokba. Kiegészítésképp gyakran utánanéztem a használt library-k dokumentációjában az alkalmazott függvények paramétereinek, működésének, ezeket is kommentben fűztem hozzá a kódhoz.
 
