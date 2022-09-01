@@ -29,12 +29,6 @@ Ezt a projektet is üres kóddal kezdjük, így minden függvényt, algoritmust 
 
 Ezután egy bar plot-on vizualizáljuk a MAE és MSE mutatókat mindhárom modell esetében a test adatokon, majd ez alapján összehasonlítjuk és kiválasztjuk a legalacsonyabb hibával rendelkezőt. Végül a kiválasztott modell-t "deploy-oljuk", felhasználjuk az eredeti problémára, azaz a gép adott beállításai alapján megbecsüljük a várható energiafogyasztását. 
 
-
-Robotic Process Automation projekt összefoglaló
------------------------------------
-Az automatizáló robot megnyitja a megadott weboldalt (most a hasznaltalma.hu), majd az általunk megadott kulcsszóra rákeres a hirdetések között. A találatokat egy saját relációs adatbázisba menti: ID, név, állapot, dátum, ár, illetve Excel-be exportálja ugyanebben a strukturált formában. <br>
-A robotot Automation Anywhere-be integráltuk, onnan indítottuk, illetve ott adtuk meg a paramétereket.
-
 ML és RPA projektek teljes mappájának elérése
 -----------------------------------
 A Notebook-ok nagy méretük miatt lassan töltenek be (pull nélkül) és nehezen olvashatóak (cellák outputjai végig ki vannak írva),
@@ -44,6 +38,10 @@ https://drive.google.com/drive/folders/11qtNoWj1Z9aUZ6ImwchnyAyrsl4fnAXs?usp=sha
 (a ML projekt esetén tartalmazza a DL dataset-t, egyéb fileokat, saját kiegészítéseket (képek, excelek), 
 az RPA projekt esetén pedig az VS Solution minden fileját, mint pl. config fileok)
 
+Robotic Process Automation projekt összefoglaló
+-----------------------------------
+Az automatizáló robot megnyitja a megadott weboldalt (most a hasznaltalma.hu), majd az általunk megadott kulcsszóra rákeres a hirdetések között. A találatokat egy saját relációs adatbázisba menti: ID, név, állapot, dátum, ár, illetve Excel-be exportálja ugyanebben a strukturált formában. <br>
+A robotot Automation Anywhere-be integráltuk, onnan indítottuk, illetve ott adtuk meg a paramétereket.
 
 Saját részek, kiegészítések a projektekben
 -----------------------------------
