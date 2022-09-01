@@ -29,15 +29,6 @@ Ezt a projektet is üres kóddal kezdjük, így minden függvényt, algoritmust 
 
 Ezután egy bar plot-on vizualizáljuk a MAE és MSE mutatókat mindhárom modell esetében a test adatokon, majd ez alapján összehasonlítjuk és kiválasztjuk a legalacsonyabb hibával rendelkezőt. Végül a kiválasztott modell-t "deploy-oljuk", felhasználjuk az eredeti problémára, azaz a gép adott beállításai alapján megbecsüljük a várható energiafogyasztását. 
 
-ML és RPA projektek teljes mappájának elérése
------------------------------------
-A Notebook-ok nagy méretük miatt lassan töltenek be (pull nélkül) és nehezen olvashatóak (cellák outputjai végig ki vannak írva),
-az RPA projekt esetében pedig csak a legrelevánsabb kód fileok találhatóak meg itt, ezért    
-a 2 projekt teljes mappáját felötlöttem ide:
-https://drive.google.com/drive/folders/11qtNoWj1Z9aUZ6ImwchnyAyrsl4fnAXs?usp=sharing
-(a ML projekt esetén tartalmazza a DL dataset-t, egyéb fileokat, saját kiegészítéseket (képek, excelek), 
-az RPA projekt esetén pedig az VS Solution minden fileját, mint pl. config fileok)
-
 Robotic Process Automation projekt összefoglaló
 -----------------------------------
 Az automatizáló robot megnyitja a megadott weboldalt (most a hasznaltalma.hu), majd az általunk megadott kulcsszóra rákeres a hirdetések között. A találatokat egy saját relációs adatbázisba menti: ID, név, állapot, dátum, ár, illetve Excel-be exportálja ugyanebben a strukturált formában. <br>
@@ -52,6 +43,15 @@ Időnként kódértelmező kommentjeiben szándékosan túl részletesek, vagy n
 A tanulási folyamat közben, mikor egy-egy (számomra) összetettebb Code cellához értem, felette hozzáadtam kiegészítő Code cellákat, melyekben a hosszabb kódsorokat részletekre szedve értelmeztem, próbálgattam ki (printelések, stb), így elősegítve a részletek átlátását, hosszabb kódok értő tanulását. Ezeket a hozzáadott kiegészítő cellákat a transzparencia, olvashatóság érdekében mindig a "saját, értelmezéshez" kommenttel kezdtem.
 
 (A Deep Learning képi adatoknál (Google Drive\Python ML projekt\DL for Image Classification\data\top) a Missing Cover ("_MC_") kategóriájú képek felülnézetben félrevezetőek lehetnek, mert bár innen nézve úgy tűnik, hogy rajtuk van a fekete gumi "takaró", oldalsó nézetből már látszik, hogy nem mindegyik részükön van rajta.)
+
+ML és RPA projektek teljes mappájának elérése
+-----------------------------------
+A Notebook-ok nagy méretük miatt lassan töltenek be (pull nélkül) és nehezen olvashatóak (cellák outputjai végig ki vannak írva),
+az RPA projekt esetében pedig csak a legrelevánsabb kód fileok találhatóak meg itt, ezért    
+a 2 projekt teljes mappáját felötlöttem ide:
+https://drive.google.com/drive/folders/11qtNoWj1Z9aUZ6ImwchnyAyrsl4fnAXs?usp=sharing
+(a ML projekt esetén tartalmazza a DL dataset-t, egyéb fileokat, saját kiegészítéseket (képek, excelek), 
+az RPA projekt esetén pedig az VS Solution minden fileját, mint pl. config fileok)
 
 Deep Learning projekt részletesebb bemutatása
 -----------------------------------
