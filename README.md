@@ -31,6 +31,8 @@ Ezután egy bar plot-on vizualizáljuk a MAE és MSE mutatókat mindhárom model
 
 Robotic Process Automation projekt összefoglaló
 -----------------------------------
+Az automatizáló robot megnyitja a megadott weboldalt (most a hasznaltalma.hu), majd az általunk megadott kulcsszóra rákeres a hirdetések között. A találatokat egy saját relációs adatbázisba menti: ID, név, állapot, dátum, ár, illetve Excel-be exportálja ugyanebben a strukturált formában.
+A robotot Automation Anywhere-be integráltuk, onnan indítottuk, illetve ott adtuk meg a paramétereket.
 
 ML és RPA projektek teljes mappájának elérése
 -----------------------------------
