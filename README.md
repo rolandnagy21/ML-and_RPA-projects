@@ -7,6 +7,7 @@ A gyártósor végén kapott elektromos motorokról egy szenzor képeket készí
 Ezután felépítjük a különböző modelleket: mindegyik esetében először a dataset adott modellnek megfelelő formára alakítása (array méret, dimenziók, színek), majd train (most 70%) és test (30%) set-re bontás. A neurális hálózatok esetében a labelek-re one-hot encodingot használunk. A betöltések, átalakítások után kapott eredmények helyességét gyakran tesztelő függvényekkel (quality gate) ellenőrizzük. <br>
 
 <b>A következő modellekkel dolgozunk: szupport vektoros gépek klasszifikációra használt verziója (SVC), teljesen összekapcsolt architektúrájú mesterséges neurális hálózatok (ANN, Dense layerek), konvolúciós architektúrájú neurális hálózatok (CNN, konvolúciós layerek és pooling műveletek). </b> <br>
+
 A modellek felépítését nulláról kezdjük (define - rétegek), majd model summary-vel megvizsgáljuk a kialakított régetek architektúráját. Ezután lefordítjuk a felépített modellt (compile - loss, optimizer, metrikák), majd a training set-en tanítjuk (train - epochs, batch méret, validációs set méret). Végül a teszt adatokon (unseen data) végzett teljesítmény kiértékeléséhez classification report-t, és hőtérképes confusion mátrix-t használunk, írunk. <br>
 
 A magasabb accuracy eléréséhez kísérletezünk a hyperparaméterekkel (activation functoin, batch és epoch méretek, optimezerek és learning rate, rétegek és filterek száma, stb), illetve a rengeteg free paraméter megfelelő tanításához növeljük a dataset-t Data augmentation technikával (ImageDataGenerator).
@@ -44,7 +45,7 @@ https://drive.google.com/drive/folders/11qtNoWj1Z9aUZ6ImwchnyAyrsl4fnAXs?usp=sha
 az RPA projekt esetén pedig az VS Solution minden fileját, mint pl. config fileok)
 
 
-Egyéb információk, saját részek a projektekben
+Saját kiegészítések, részek a projektekben
 -----------------------------------
 A Python megvalósítás közben a mélyebb matematikai háttérre is fókuszáltak a tanult anyagok, ezeket az elméleti anyagokat (előadásvideók, slideok) kommentbe (saját megfogalmazással) a kódokhoz igazítottam a kódértelmezés közben, annak érdekében, hogy például a hyperparamétereket értően tudjam változtatni, illetve hogy jobban belelássak a kódok mögötti háttérszámításokba. Kiegészítésképp gyakran utánanéztem a használt library-k dokumentációjában az alkalmazott függvények paramétereinek, működésének, ezeket is kommentben fűztem hozzá a kódhoz.
 
