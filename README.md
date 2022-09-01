@@ -1,8 +1,8 @@
 Deep Learning projekt összefoglaló (alul részletesebb bemutatás)
 -----------------------------------
-Használt library-k: keras, tensorflow, sklearn, seaborn, matplotlib, cv2, pandas, numpy, glob, random <br>
+Használt library-k: keras, tensorflow, sklearn, seaborn, matplotlib, cv2, pandas, numpy, glob, random 
 
-A gyártósor végén kapott elektromos motorokról egy szenzor képet készít, amely alapján különböző modellekkel beazonosítjuk a hibás alkatrészeket, illetve klasszifikáljuk őket a hiba típusa szerint. A projektet teljesen üres kóddal kezdjük, így először kialakítjuk a képi adatok megfelelő betöltését, kezelését végző függvényeket. Eztuán elemző módszerekkel áttekintjük a dataset-t, összehasonlítjuk a class-okat, megvizsgáljuk eloszlásukat. <br>
+A gyártósor végén kapott elektromos motorokról egy szenzor képet készít, amely alapján különböző modellekkel beazonosítjuk a hibás alkatrészeket, illetve klasszifikáljuk őket a hiba típusa szerint. A projektet teljesen üres kóddal kezdjük, így először kialakítjuk a képi adatok megfelelő betöltését, kezelését végző függvényeket. Eztuán elemző módszerekkel áttekintjük a dataset-t, összehasonlítjuk a class-okat, megvizsgáljuk eloszlásukat.
 
 Ezután felépítjük a különböző modelleket: mindegyik esetében először a dataset adott modellnek megfelelő formára alakítása (array méret, dimenziók, színek), majd a dataset train (most 70%) és test (30%) set-re bontása. A neurális hálózatok esetében a labelek-re one-hot encoding használunk a softmax transzformáció (és cross entropy) előkészítéseként. A betöltések, átalakítások után kapott eredmények helyességét gyakran tesztelő függvényekkel (gate) ellenőrízzük. <br>
 
