@@ -1,22 +1,33 @@
-Deep Learning projekt összefoglaló (alul részletesebb bemutatás)
+Deep Learning projekt összefoglaló (legalul részletesebb bemutatás)
 -----------------------------------
-Használt library-k: keras, tensorflow, sklearn, seaborn, matplotlib, cv2, pandas, numpy, glob, random 
+<b>Használt library-k: keras, tensorflow, sklearn, seaborn, matplotlib, cv2, pandas, numpy, glob, random </b>
 
-A gyártósor végén kapott elektromos motorokról egy szenzor képet készít, amely alapján különböző modellekkel beazonosítjuk a hibás alkatrészeket, illetve klasszifikáljuk őket a hiba típusa szerint. A projektet teljesen üres kóddal kezdjük, így először kialakítjuk a képi adatok megfelelő betöltését, kezelését végző függvényeket. Eztuán elemző módszerekkel áttekintjük a dataset-t, összehasonlítjuk a class-okat, megvizsgáljuk eloszlásukat.
+A gyártósor végén kapott elektromos motorokról egy szenzor képeket készít, melyek alapján különböző modellekkel beazonosítjuk a hibás alkatrészeket, illetve klasszifikáljuk őket a hiba típusa szerint. A projektet teljesen üres kóddal kezdjük, így először kialakítjuk a képi adatok megfelelő betöltését, kezelését végző függvényeket. Ezután elemző módszerekkel (pl. ImageGrid) áttekintjük a dataset-t, összehasonlítjuk a class-okat, megvizsgáljuk eloszlásukat.
 
-Ezután felépítjük a különböző modelleket: mindegyik esetében először a dataset adott modellnek megfelelő formára alakítása (array méret, dimenziók, színek), majd a dataset train (most 70%) és test (30%) set-re bontása. A neurális hálózatok esetében a labelek-re one-hot encodingot használunk. A betöltések, átalakítások után kapott eredmények helyességét gyakran tesztelő függvényekkel (quality gate) ellenőrízzük. <br>
+Ezután felépítjük a különböző modelleket: mindegyik esetében először a dataset adott modellnek megfelelő formára alakítása (array méret, dimenziók, színek), majd train (most 70%) és test (30%) set-re bontás. A neurális hálózatok esetében a labelek-re one-hot encodingot használunk. A betöltések, átalakítások után kapott eredmények helyességét gyakran tesztelő függvényekkel (quality gate) ellenőrízzük. <br>
 
-A következő modellekkel dolgozunk: szupport vektoros gépek klasszifikációra használt verziója (SVC), teljesen összekapcsolt architektúrájú mesterséges neurális hálózatok (ANN, Dense layerek), konvolúciós architektúrájú neurális hálózatok (CNN, konvolúciós layerek és pooling műveletek). <br>
+<b>A következő modellekkel dolgozunk: szupport vektoros gépek klasszifikációra használt verziója (SVC), teljesen összekapcsolt architektúrájú mesterséges neurális hálózatok (ANN, Dense layerek), konvolúciós architektúrájú neurális hálózatok (CNN, konvolúciós layerek és pooling műveletek). </b> <br>
 A modellek felépítését nulláról kezdjük (define - rétegek), majd model summary-vel megvizsgáljuk a kialakított régetek architektúráját. Ezután lefordítjuk a felépített modellt (compile - loss, optimizer, metrikák), majd a training set-en tanítjuk (train - epochs, batch méret, validációs set méret). Végül a teszt adatokon (unseen data) végzett teljesítmény kiértékeléséhez classification report-t, és hőtérképes confusion mátrix-t használnuk, írunk. <br>
 
-A magasabb accuracy eléréséhez kísérletezünk a hyperparaméterekkel (activation functoin, batch és epoch méretek, optimezerek és learning rate, rétegek és filterek száma, stb), illetve a rengeteg free paraméter megfelelő tanításához növeljük a dataset-t Data augmentation technikával.
-
-<br><br>
-
-
+A magasabb accuracy eléréséhez kísérletezünk a hyperparaméterekkel (activation functoin, batch és epoch méretek, optimezerek és learning rate, rétegek és filterek száma, stb), illetve a rengeteg free paraméter megfelelő tanításához növeljük a dataset-t Data augmentation technikával (ImageDataGenerator).
 
 Pipeline and Regressions projekt összefoglaló 
 -----------------------------------
+<b>Használt library-k: sklearn, matplotlib, pandas (Series, DataFrame), numpy, seaborn</b>
+
+A use case egy gyártási környezetben használt gép energiafelhasználásnak (kJ) becslése a gép beállított paraméterei alapján, különböző regressziós modellekkel. <br>
+
+Ezt a projektet is üres kóddal kezdjük, így minden függvényt, algoritmust lépésenként haladva, a nulláról építünk fel. Először DataFrame-be betöltjük, és áttekintjük az adatokat, majd az attribútumok szerinti bontásban vizualizáljuk (hisztogram plot) őket. Ezután kezeljük a hiányzó és outlier értékeket, valamint train és test set-re bontjuk a dataset-t.
+
+<b>A következő modellekkel dolgozunk: Linear Regression, Random Forest Regressor, Support Vector Regresssion. </b> Mindegyik esetében a következő lépéseken megyünk végig: 
+- importáljuk az adott modellt (sklearn library), és beállítjuk a hyperparamétereit (pl. RF-nél fák száma, SVR-nél kernel típusa)
+- tanítjuk a training set-en (fit()) 
+- becslünk vele a train és test set-en (azért mindkettőn, hogy a modellek loss mutatóit mindkét esetében össze tudjuk hasonlítani)
+- kiszámítjuk a loss mutatókat mindkét set-re (Mean Absolute Error és Mean Squared Error)
+- residual plot-on vizualizáljuk a (becsült-valós)/(valós-becsült) reziduális (hiba) értékeket
+
+Ezután egy bar plot-on vizualizáljuk a MAE és MSE mutatókat mindhárom modell esetében a test adatokon, majd ez alapján összehasonlítjuk és kiválasztjuk a legalacsonyabb hibával rendelkezőt. Végül a kiválasztott modell-t "deploy-oljuk", felhasználjuk az eredeti problémára, azaz a gép adott beállítasai alapján megbecsüljük a várható energiafogyasztását. 
+
 
 Robotic Process Automation projekt összefoglaló
 -----------------------------------
