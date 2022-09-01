@@ -49,7 +49,7 @@ ML és RPA projektek teljes mappájának elérése
 A Notebook-ok nagy méretük miatt lassan töltenek be (pull nélkül) és nehezen olvashatóak (cellák outputjai végig ki vannak írva),
 az RPA projekt esetében pedig csak a legrelevánsabb kód fileok találhatóak meg itt, ezért    
 a 2 projekt teljes mappáját felötlöttem ide:
-https://drive.google.com/drive/folders/11qtNoWj1Z9aUZ6ImwchnyAyrsl4fnAXs?usp=sharing
+https://drive.google.com/drive/folders/11qtNoWj1Z9aUZ6ImwchnyAyrsl4fnAXs?usp=sharing <br>
 (a ML projekt esetén tartalmazza a DL dataset-t, egyéb fileokat, saját kiegészítéseket (képek, excelek), 
 az RPA projekt esetén pedig az VS Solution minden fileját, mint pl. config fileok)
 
