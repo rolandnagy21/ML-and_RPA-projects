@@ -1,13 +1,14 @@
 Deep Learning projekt összefoglaló (alul részletesebb bemutatás)
 -----------------------------------
-Használt library-k: keras, tensorflow, sklearn, seaborn, matplotlib, cv2, pandas, numpy, glob, random <br><br>
+Használt library-k: keras, tensorflow, sklearn, seaborn, matplotlib, cv2, pandas, numpy, glob, random <br>
 
-A gyártósor végén kapott elektromos motorokról egy szenzor képet készít, amely alapján különböző modellekkel beazonosítjuk a hibás alkatrészeket, illetve klasszifikáljuk őket a hiba típusa szerint. A projektet teljesen üres kóddal kezdjük, így először kialakítjuk a képi adatok megfelelő betöltését, kezelését végző függvényeket. Eztuán elemző módszerekkel áttekintjük a dataset-t, összehasonlítjuk a class-okat, megvizsgáljuk eloszlásukat. <br><br>
+A gyártósor végén kapott elektromos motorokról egy szenzor képet készít, amely alapján különböző modellekkel beazonosítjuk a hibás alkatrészeket, illetve klasszifikáljuk őket a hiba típusa szerint. A projektet teljesen üres kóddal kezdjük, így először kialakítjuk a képi adatok megfelelő betöltését, kezelését végző függvényeket. Eztuán elemző módszerekkel áttekintjük a dataset-t, összehasonlítjuk a class-okat, megvizsgáljuk eloszlásukat. <br>
 
-Ezután felépítjük a különböző modelleket: mindegyik esetében először a dataset adott modellnek megfelelő formára alakítása (array méret, dimenziók, színek), majd a dataset train (most 70%) és test (30%) set-re bontása. A neurális hálózatok esetében a labelek-re one-hot encoding használunk a softmax transzformáció (és cross entropy) előkészítéseként. A betöltések, átalakítások után kapott eredmények helyességét gyakran tesztelő függvényekkel (gate) ellenőrízzük. <br><br>
+Ezután felépítjük a különböző modelleket: mindegyik esetében először a dataset adott modellnek megfelelő formára alakítása (array méret, dimenziók, színek), majd a dataset train (most 70%) és test (30%) set-re bontása. A neurális hálózatok esetében a labelek-re one-hot encoding használunk a softmax transzformáció (és cross entropy) előkészítéseként. A betöltések, átalakítások után kapott eredmények helyességét gyakran tesztelő függvényekkel (gate) ellenőrízzük. <br>
 
 A következő modellekkel dolgozunk: szupport vektoros gépek klasszifikációra használt verziója (SVC), teljesen összekapcsolt architektúrájú mesterséges neurális hálózatok (ANN, Dense layerek), konvolúciós architektúrájú neurális hálózatok (CNN, konvolúciós layerek és pooling műveletek). <br>
 A modellek felépítését nulláról kezdjük (define - rétegek), majd model summary-vel megvizsgáljuk a kialakított régetek architektúráját. Ezután lefordítjuk a felépített modellt (compile - loss, optimizer, metrikák), majd a training set-en tanítjuk (train - epochs, batch méret, validációs set méret), végül pedig a teszt adatokon (unseen data) végzett teljesítmény kiértékeléséhez classification report-t, és hőtérképes confusion mátrix-t használnuk, írunk. <br>
+
 A magasabb accuracy eléréséhez kísérletezünk a hyperparaméterekkel (activation functoin, batch és epoch méretek, optimezerek és learning rate, rétegek és filterek száma, stb), illetve a rengeteg free paraméter megfelelő tanításához növeljük a dataset-t Data augmentation technikával.
 
 <br><br>
