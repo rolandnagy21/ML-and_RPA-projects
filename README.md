@@ -31,7 +31,7 @@ Ezután egy bar plot-on vizualizáljuk a MAE és MSE mutatókat mindhárom model
 
 Robotic Process Automation projekt összefoglaló
 -----------------------------------
-Az automatizáló robot megnyitja a megadott weboldalt (most a hasznaltalma.hu), majd az általunk megadott kulcsszóra rákeres a hirdetések között. A találatokat egy saját relációs adatbázisba menti: ID, név, állapot, dátum, ár, illetve Excel-be exportálja ugyanebben a strukturált formában.
+Az automatizáló robot megnyitja a megadott weboldalt (most a hasznaltalma.hu), majd az általunk megadott kulcsszóra rákeres a hirdetések között. A találatokat egy saját relációs adatbázisba menti: ID, név, állapot, dátum, ár, illetve Excel-be exportálja ugyanebben a strukturált formában. <br>
 A robotot Automation Anywhere-be integráltuk, onnan indítottuk, illetve ott adtuk meg a paramétereket.
 
 ML és RPA projektek teljes mappájának elérése
@@ -44,7 +44,7 @@ https://drive.google.com/drive/folders/11qtNoWj1Z9aUZ6ImwchnyAyrsl4fnAXs?usp=sha
 az RPA projekt esetén pedig az VS Solution minden fileját, mint pl. config fileok)
 
 
-Kiegészítő információk, saját részek a projektekben
+Egyéb információk, saját részek a projektekben
 -----------------------------------
 A Python megvalósítás közben a mélyebb matematikai háttérre is fókuszáltak a tanult anyagok, ezeket az elméleti anyagokat (előadásvideók, slideok) kommentbe (saját megfogalmazással) a kódokhoz igazítottam a kódértelmezés közben, annak érdekében, hogy például a hyperparamétereket értően tudjam változtatni, illetve hogy jobban belelássak a kódok mögötti háttérszámításokba. Kiegészítésképp gyakran utánanéztem a használt library-k dokumentációjában az alkalmazott függvények paramétereinek, működésének, ezeket is kommentben fűztem hozzá a kódhoz.
 
@@ -54,7 +54,7 @@ A tanulási folyamat közben, mikor egy-egy (számomra) összetettebb Code cell�
 
 (A Deep Learning képi adatoknál (Google Drive\Python ML projekt\DL for Image Classification\data\top) a Missing Cover ("_MC_") kategóriájú képek felülnézetben félrevezetőek lehetnek, mert bár innen nézve úgy tűnik, hogy rajtuk van a fekete gumi "takaró", oldalsó nézetből már látszik, hogy nem mindegyik részükön van rajta.)
 
-Deep Learning projekt részletesebb leírása
+Deep Learning projekt részletesebb bemutatása
 -----------------------------------
 Használt library-k: keras, tensorflow, sklearn, seaborn, matplotlib, cv2, pandas, numpy, glob, random <br> <br>
 Elektromos motorokat (autókhoz) gyártását szimuláló környezetben vagyunk, ahol a gyártósor végén kapott motorokról egy szenzor képet készít. Az automatizált gyártás miatt típushibák keletkeznek: missing cover, missing screw, vagy hibamentes, azaz complete - ezek a dataset label-jei, melyek a class-okat is jelentik, hiszen a motorok hibáinak algoritmizált felismerése klasszifikációs problémát jelent.<br><br>
