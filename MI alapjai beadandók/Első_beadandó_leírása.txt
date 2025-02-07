@@ -1,0 +1,15 @@
+Egy nagyvállalatnál összegyűjtötték a cég által használt ipv6 címeket és egy ip.txt fájlban elmentették a következő formában:
+
+fc00:0610:0f00:89f0:00f0:0ed2:0000:000d
+2001:0e00:00f9:00d4:7300:0096:0801:0201
+2001:0db8:5005:0003:0b02:0029:fe09:a861
+fcb6:0600:e707:a30c:3007:0d05:0100:aadf
+2001:0e00:41a0:006b:00de:03c0:0e00:60bc
+..
+A vállalatnál háromféle IP-cím fordul elő:
+A 2001:0db8 kezdetű címek a dokumentációs címek, eszközöknek nincsenek kiosztva. 
+A 2001:0e kezdetű címek az informatikai eszközöknek kiosztott globális egyedi címek. 
+Az fc, valamint az fd kezdetű címek az eszközöknek kiosztott helyi egyedi címek.
+
+Határozza meg, hogy hány adatsor van az állományban.
+Határozza meg, hogy az állományban hány darab IP-cím van az egyes fajtákból és az eredményt írassa ki.
